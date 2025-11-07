@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/simple_control/simple_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/simple_control/simple_control.egg-info/dependency_links.txt
+writing entry points to ../../build/simple_control/simple_control.egg-info/entry_points.txt
+writing requirements to ../../build/simple_control/simple_control.egg-info/requires.txt
+writing top-level names to ../../build/simple_control/simple_control.egg-info/top_level.txt
+reading manifest file '../../build/simple_control/simple_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/simple_control/simple_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying simple_control/path_planner.py -> /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build/lib/simple_control
+running install
+running install_lib
+copying /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build/lib/simple_control/path_planner.py -> /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control
+byte-compiling /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control/path_planner.py to path_planner.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/simple_control/simple_control.egg-info to /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing geofence_and_mission script to /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/simple_control
+Installing path_planner script to /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/simple_control
+writing list of installed files to '/root/csci_420_robotics_labs/lab6_ws/build/simple_control/install.log'

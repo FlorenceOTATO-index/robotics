@@ -1,0 +1,684 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb5c9d280>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb5c9d0a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb5c9d0a0>>)
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.083s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/csci_420_robotics_labs/lab6_ws'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightcontroller) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightcontroller) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightcontroller) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightcontroller) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightcontroller) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightcontroller) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightcontroller) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightcontroller) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightcontroller) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flightcontroller' with type 'ros.ament_cmake' and name 'flightcontroller'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extension 'ros'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extensions ['cmake', 'python']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extension 'cmake'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extension 'python'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extensions ['python_setup_py']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles) by extension 'python_setup_py'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flightgoggles/flightgoggles' with type 'ros.ament_cmake' and name 'flightgoggles'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles_uav_dynamics) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles_uav_dynamics) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles_uav_dynamics) by extension 'ignore_ament_install'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles_uav_dynamics) by extensions ['colcon_pkg']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles_uav_dynamics) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles_uav_dynamics) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles_uav_dynamics) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles_uav_dynamics) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/flightgoggles/flightgoggles_uav_dynamics) by extension 'ros'
+[0.107s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flightgoggles/flightgoggles_uav_dynamics' with type 'ros.ament_cmake' and name 'flightgoggles_uav_dynamics'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'ros'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['cmake', 'python']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'cmake'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'python'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['python_setup_py']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'python_setup_py'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extension 'ignore_ament_install'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extensions ['colcon_pkg']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extension 'colcon_pkg'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extensions ['colcon_meta']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extension 'colcon_meta'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extensions ['ros']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extension 'ros'
+[0.109s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-keyboard/keyboard' with type 'ros.ament_cmake' and name 'keyboard'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extension 'ros'
+[0.111s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-keyboard/keyboard_msgs' with type 'ros.ament_cmake' and name 'keyboard_msgs'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_simulation) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_simulation) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_simulation) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_simulation) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_simulation) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_simulation) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_simulation) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_simulation) by extension 'ros'
+[0.112s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_simulation' with type 'ros.ament_cmake' and name 'sensor_simulation'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_control) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_control) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_control) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_control) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_control) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_control) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_control) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_control) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_control) by extension 'ros'
+[0.112s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_control' with type 'ros.ament_python' and name 'simple_control'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_sim) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_sim) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_sim) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_sim) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_sim) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_sim) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_sim) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_sim) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_sim' with type 'ros.ament_python' and name 'simple_sim'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualizer' with type 'ros.ament_cmake' and name 'visualizer'
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.126s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 401 installed packages in /opt/ros/kilted
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'flightcontroller' build argument 'cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'flightcontroller' build argument 'cmake_target' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'flightcontroller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'flightcontroller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'flightcontroller' build argument 'cmake_clean_first' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'flightcontroller' build argument 'cmake_force_configure' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'flightcontroller' build argument 'ament_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'flightcontroller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'flightcontroller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.154s] DEBUG:colcon.colcon_core.verb:Building package 'flightcontroller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller', 'merge_install': False, 'path': '/root/csci_420_robotics_labs/lab6_ws/src/flightcontroller', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'flightgoggles' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles', 'merge_install': False, 'path': '/root/csci_420_robotics_labs/lab6_ws/src/flightgoggles/flightgoggles', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles_uav_dynamics' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles_uav_dynamics' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles_uav_dynamics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles_uav_dynamics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles_uav_dynamics' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles_uav_dynamics' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles_uav_dynamics' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles_uav_dynamics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'flightgoggles_uav_dynamics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'flightgoggles_uav_dynamics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics', 'merge_install': False, 'path': '/root/csci_420_robotics_labs/lab6_ws/src/flightgoggles/flightgoggles_uav_dynamics', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs', 'merge_install': False, 'path': '/root/csci_420_robotics_labs/lab6_ws/src/ros2-keyboard/keyboard_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation', 'merge_install': False, 'path': '/root/csci_420_robotics_labs/lab6_ws/src/sensor_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_control' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_control' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'simple_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/csci_420_robotics_labs/lab6_ws/build/simple_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/csci_420_robotics_labs/lab6_ws/install/simple_control', 'merge_install': False, 'path': '/root/csci_420_robotics_labs/lab6_ws/src/simple_control', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_sim' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_sim' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'simple_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'simple_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/csci_420_robotics_labs/lab6_ws/build/simple_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim', 'merge_install': False, 'path': '/root/csci_420_robotics_labs/lab6_ws/src/simple_sim', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'visualizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/csci_420_robotics_labs/lab6_ws/build/visualizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/csci_420_robotics_labs/lab6_ws/install/visualizer', 'merge_install': False, 'path': '/root/csci_420_robotics_labs/lab6_ws/src/visualizer', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/csci_420_robotics_labs/lab6_ws/build/keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/csci_420_robotics_labs/lab6_ws/install/keyboard', 'merge_install': False, 'path': '/root/csci_420_robotics_labs/lab6_ws/src/ros2-keyboard/keyboard', 'symlink_install': False, 'test_result_base': None}
+[0.158s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.159s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/csci_420_robotics_labs/lab6_ws/src/ros2-keyboard/keyboard_msgs' with build type 'ament_cmake'
+[0.159s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/csci_420_robotics_labs/lab6_ws/src/ros2-keyboard/keyboard_msgs'
+[0.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.163s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/csci_420_robotics_labs/lab6_ws/src/flightcontroller' with build type 'ament_cmake'
+[0.163s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/csci_420_robotics_labs/lab6_ws/src/flightcontroller'
+[0.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.165s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/csci_420_robotics_labs/lab6_ws/src/flightgoggles/flightgoggles' with build type 'ament_cmake'
+[0.165s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/csci_420_robotics_labs/lab6_ws/src/flightgoggles/flightgoggles'
+[0.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/csci_420_robotics_labs/lab6_ws/src/flightgoggles/flightgoggles_uav_dynamics' with build type 'ament_cmake'
+[0.167s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/csci_420_robotics_labs/lab6_ws/src/flightgoggles/flightgoggles_uav_dynamics'
+[0.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/csci_420_robotics_labs/lab6_ws/src/sensor_simulation' with build type 'ament_cmake'
+[0.169s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/csci_420_robotics_labs/lab6_ws/src/sensor_simulation'
+[0.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.172s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/csci_420_robotics_labs/lab6_ws/src/simple_control' with build type 'ament_python'
+[0.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_control', 'ament_prefix_path')
+[0.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/hook/ament_prefix_path.ps1'
+[0.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/hook/ament_prefix_path.dsv'
+[0.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/hook/ament_prefix_path.sh'
+[0.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.176s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/csci_420_robotics_labs/lab6_ws/src/simple_sim' with build type 'ament_python'
+[0.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_sim', 'ament_prefix_path')
+[0.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/hook/ament_prefix_path.ps1'
+[0.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/hook/ament_prefix_path.dsv'
+[0.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/hook/ament_prefix_path.sh'
+[0.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.179s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/csci_420_robotics_labs/lab6_ws/src/visualizer' with build type 'ament_cmake'
+[0.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/csci_420_robotics_labs/lab6_ws/src/visualizer'
+[0.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs -- -j8 -l8
+[0.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightcontroller -- -j8 -l8
+[0.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles -- -j8 -l8
+[0.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics -- -j8 -l8
+[0.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation -- -j8 -l8
+[0.345s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/csci_420_robotics_labs/lab6_ws/src/simple_control'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/csci_420_robotics_labs/lab6_ws/src/simple_sim'
+[0.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/visualizer -- -j8 -l8
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightcontroller -- -j8 -l8
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightcontroller
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles -- -j8 -l8
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics -- -j8 -l8
+[0.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics
+[0.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation -- -j8 -l8
+[0.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation
+[0.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flightgoggles)
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles' for CMake module files
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles' for CMake config files
+[0.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('flightgoggles', 'cmake_prefix_path')
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/hook/cmake_prefix_path.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/hook/cmake_prefix_path.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/hook/cmake_prefix_path.sh'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/bin'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/lib/pkgconfig/flightgoggles.pc'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/lib/python3.12/site-packages'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/bin'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.ps1'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.dsv'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.sh'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.bash'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.zsh'
+[0.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/colcon-core/packages/flightgoggles)
+[0.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles
+[0.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flightgoggles)
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles' for CMake module files
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles' for CMake config files
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('flightgoggles', 'cmake_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/hook/cmake_prefix_path.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/hook/cmake_prefix_path.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/hook/cmake_prefix_path.sh'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/bin'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/lib/pkgconfig/flightgoggles.pc'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/lib/python3.12/site-packages'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/bin'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.sh'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.bash'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.zsh'
+[0.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/colcon-core/packages/flightgoggles)
+[0.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flightgoggles_uav_dynamics)
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics' for CMake module files
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics' for CMake config files
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics
+[0.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('flightgoggles_uav_dynamics', 'cmake_prefix_path')
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/hook/cmake_prefix_path.ps1'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/hook/cmake_prefix_path.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/hook/cmake_prefix_path.sh'
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/lib'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/bin'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/lib/pkgconfig/flightgoggles_uav_dynamics.pc'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/lib/python3.12/site-packages'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/bin'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.sh'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.bash'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.zsh'
+[0.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/colcon-core/packages/flightgoggles_uav_dynamics)
+[0.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flightgoggles_uav_dynamics)
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics' for CMake module files
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics' for CMake config files
+[0.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('flightgoggles_uav_dynamics', 'cmake_prefix_path')
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/hook/cmake_prefix_path.ps1'
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/hook/cmake_prefix_path.dsv'
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/hook/cmake_prefix_path.sh'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/lib'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/bin'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/lib/pkgconfig/flightgoggles_uav_dynamics.pc'
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/lib/python3.12/site-packages'
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/bin'
+[0.665s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.ps1'
+[0.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.dsv'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.sh'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.bash'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.zsh'
+[0.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/colcon-core/packages/flightgoggles_uav_dynamics)
+[0.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flightcontroller)
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller' for CMake module files
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightcontroller
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller' for CMake config files
+[0.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('flightcontroller', 'cmake_prefix_path')
+[0.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/hook/cmake_prefix_path.ps1'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/hook/cmake_prefix_path.dsv'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/hook/cmake_prefix_path.sh'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/bin'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib/pkgconfig/flightcontroller.pc'
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib/python3.12/site-packages'
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/bin'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.dsv'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.sh'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.bash'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.zsh'
+[0.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/colcon-core/packages/flightcontroller)
+[0.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flightcontroller)
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller' for CMake module files
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller' for CMake config files
+[0.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('flightcontroller', 'cmake_prefix_path')
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/hook/cmake_prefix_path.ps1'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/hook/cmake_prefix_path.dsv'
+[0.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/hook/cmake_prefix_path.sh'
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/bin'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib/pkgconfig/flightcontroller.pc'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib/python3.12/site-packages'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/bin'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.sh'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.bash'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.zsh'
+[0.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/colcon-core/packages/flightcontroller)
+[0.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_simulation)
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation' for CMake module files
+[0.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation' for CMake config files
+[0.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_simulation', 'cmake_prefix_path')
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.sh'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib'
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/bin'
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/pkgconfig/sensor_simulation.pc'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages'
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_simulation', 'pythonpath')
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/pythonpath.ps1'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/pythonpath.dsv'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/pythonpath.sh'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/bin'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.dsv'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.sh'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.bash'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.zsh'
+[0.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/colcon-core/packages/sensor_simulation)
+[0.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_simulation)
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation' for CMake module files
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation' for CMake config files
+[0.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_simulation', 'cmake_prefix_path')
+[0.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.ps1'
+[0.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.dsv'
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.sh'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/bin'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/pkgconfig/sensor_simulation.pc'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages'
+[0.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_simulation', 'pythonpath')
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/pythonpath.ps1'
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/pythonpath.dsv'
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/hook/pythonpath.sh'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/bin'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.ps1'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.dsv'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.sh'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.bash'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.zsh'
+[0.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/colcon-core/packages/sensor_simulation)
+[0.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/visualizer -- -j8 -l8
+[0.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/visualizer
+[0.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualizer)
+[0.834s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer' for CMake module files
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/visualizer
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer' for CMake config files
+[0.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualizer', 'cmake_prefix_path')
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/cmake_prefix_path.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/cmake_prefix_path.dsv'
+[0.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/cmake_prefix_path.sh'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/bin'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/pkgconfig/visualizer.pc'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages'
+[0.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualizer', 'pythonpath')
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/pythonpath.ps1'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/pythonpath.dsv'
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/pythonpath.sh'
+[0.856s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/bin'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.ps1'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.dsv'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.sh'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.bash'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.zsh'
+[0.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/colcon-core/packages/visualizer)
+[0.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualizer)
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer' for CMake module files
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer' for CMake config files
+[0.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualizer', 'cmake_prefix_path')
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/cmake_prefix_path.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/cmake_prefix_path.dsv'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/cmake_prefix_path.sh'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/bin'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/pkgconfig/visualizer.pc'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages'
+[0.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualizer', 'pythonpath')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/pythonpath.ps1'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/pythonpath.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/hook/pythonpath.sh'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/bin'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.sh'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.bash'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.zsh'
+[0.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/colcon-core/packages/visualizer)
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs -- -j8 -l8
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs
+[0.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/src/simple_control': PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/build/simple_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_control build --build-base /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build install --record /root/csci_420_robotics_labs/lab6_ws/build/simple_control/install.log --single-version-externally-managed install_data
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/src/simple_sim': PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/build/simple_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_sim build --build-base /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build install --record /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/install.log --single-version-externally-managed install_data
+[1.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_msgs)
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs' for CMake module files
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs' for CMake config files
+[1.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_msgs', 'cmake_prefix_path')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.sh'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib'
+[1.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_msgs', 'ld_library_path_lib')
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.ps1'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.dsv'
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.sh'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/bin'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib/pkgconfig/keyboard_msgs.pc'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib/python3.12/site-packages'
+[1.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_msgs', 'pythonpath')
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/pythonpath.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/pythonpath.dsv'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/pythonpath.sh'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/bin'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/package.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/package.dsv'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/package.sh'
+[1.035s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/package.bash'
+[1.035s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/package.zsh'
+[1.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/colcon-core/packages/keyboard_msgs)
+[1.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_msgs)
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs' for CMake module files
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs' for CMake config files
+[1.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_msgs', 'cmake_prefix_path')
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.ps1'
+[1.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.dsv'
+[1.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.sh'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib'
+[1.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_msgs', 'ld_library_path_lib')
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.sh'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/bin'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib/pkgconfig/keyboard_msgs.pc'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib/python3.12/site-packages'
+[1.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_msgs', 'pythonpath')
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/pythonpath.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/pythonpath.dsv'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/hook/pythonpath.sh'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/bin'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/package.ps1'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/package.dsv'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/package.sh'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/package.bash'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/keyboard_msgs/package.zsh'
+[1.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/share/colcon-core/packages/keyboard_msgs)
+[1.064s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/csci_420_robotics_labs/lab6_ws/src/ros2-keyboard/keyboard' with build type 'ament_cmake'
+[1.064s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/csci_420_robotics_labs/lab6_ws/src/ros2-keyboard/keyboard'
+[1.065s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.065s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/keyboard': AMENT_PREFIX_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/keyboard -- -j8 -l8
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/keyboard' returned '0': AMENT_PREFIX_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/keyboard -- -j8 -l8
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/keyboard': AMENT_PREFIX_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/keyboard
+[1.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard)
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard' for CMake module files
+[1.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/keyboard' returned '0': AMENT_PREFIX_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/install/keyboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/keyboard
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard' for CMake config files
+[1.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard', 'cmake_prefix_path')
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.ps1'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.dsv'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.sh'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/lib'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/bin'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/lib/pkgconfig/keyboard.pc'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/lib/python3.12/site-packages'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/bin'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/package.ps1'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/package.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/package.sh'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/package.bash'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/package.zsh'
+[1.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/colcon-core/packages/keyboard)
+[1.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard)
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard' for CMake module files
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard' for CMake config files
+[1.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard', 'cmake_prefix_path')
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.sh'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/lib'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/bin'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/lib/pkgconfig/keyboard.pc'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/lib/python3.12/site-packages'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/bin'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/package.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/package.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/package.sh'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/package.bash'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/keyboard/package.zsh'
+[1.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/keyboard/share/colcon-core/packages/keyboard)
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_control' for CMake module files
+[1.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/src/simple_control' returned '0': PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/build/simple_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_control build --build-base /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build install --record /root/csci_420_robotics_labs/lab6_ws/build/simple_control/install.log --single-version-externally-managed install_data
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_control' for CMake config files
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/bin'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/pkgconfig/simple_control.pc'
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages'
+[1.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_control', 'pythonpath')
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/hook/pythonpath.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/hook/pythonpath.dsv'
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/hook/pythonpath.sh'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/bin'
+[1.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_control)
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/package.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/package.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/package.sh'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/package.bash'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/simple_control/package.zsh'
+[1.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/simple_control/share/colcon-core/packages/simple_control)
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim' for CMake module files
+[1.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/csci_420_robotics_labs/lab6_ws/src/simple_sim' returned '0': PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/build/simple_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_sim build --build-base /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build install --record /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/install.log --single-version-externally-managed install_data
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim' for CMake config files
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/bin'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/pkgconfig/simple_sim.pc'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages'
+[1.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_sim', 'pythonpath')
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/hook/pythonpath.ps1'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/hook/pythonpath.dsv'
+[1.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/hook/pythonpath.sh'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/bin'
+[1.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_sim)
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/package.ps1'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/package.dsv'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/package.sh'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/package.bash'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim/package.zsh'
+[1.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/colcon-core/packages/simple_sim)
+[1.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.369s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.379s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.380s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.380s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/csci_420_robotics_labs/lab6_ws/install/local_setup.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/csci_420_robotics_labs/lab6_ws/install/_local_setup_util_ps1.py'
+[1.382s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/csci_420_robotics_labs/lab6_ws/install/setup.ps1'
+[1.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/csci_420_robotics_labs/lab6_ws/install/local_setup.sh'
+[1.383s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/csci_420_robotics_labs/lab6_ws/install/_local_setup_util_sh.py'
+[1.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/csci_420_robotics_labs/lab6_ws/install/setup.sh'
+[1.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/csci_420_robotics_labs/lab6_ws/install/local_setup.bash'
+[1.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/csci_420_robotics_labs/lab6_ws/install/setup.bash'
+[1.385s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/csci_420_robotics_labs/lab6_ws/install/local_setup.zsh'
+[1.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/csci_420_robotics_labs/lab6_ws/install/setup.zsh'

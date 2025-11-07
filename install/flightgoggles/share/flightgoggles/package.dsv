@@ -1,0 +1,8 @@
+source;share/flightgoggles/hook/cmake_prefix_path.ps1
+source;share/flightgoggles/hook/cmake_prefix_path.dsv
+source;share/flightgoggles/hook/cmake_prefix_path.sh
+source;share/flightgoggles/local_setup.bash
+source;share/flightgoggles/local_setup.dsv
+source;share/flightgoggles/local_setup.ps1
+source;share/flightgoggles/local_setup.sh
+source;share/flightgoggles/local_setup.zsh

@@ -1,0 +1,11 @@
+{
+  "package_name": "keyboard_msgs",
+  "output_dir": "/root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs/rosidl_generator_type_description/keyboard_msgs",
+  "idl_tuples": [
+    "/root/csci_420_robotics_labs/lab6_ws/build/keyboard_msgs/rosidl_adapter/keyboard_msgs:msg/Key.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/kilted/share/std_msgs",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces"
+  ]
+}

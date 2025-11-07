@@ -1,0 +1,11 @@
+source;share/visualizer/hook/cmake_prefix_path.ps1
+source;share/visualizer/hook/cmake_prefix_path.dsv
+source;share/visualizer/hook/cmake_prefix_path.sh
+source;share/visualizer/hook/pythonpath.ps1
+source;share/visualizer/hook/pythonpath.dsv
+source;share/visualizer/hook/pythonpath.sh
+source;share/visualizer/local_setup.bash
+source;share/visualizer/local_setup.dsv
+source;share/visualizer/local_setup.ps1
+source;share/visualizer/local_setup.sh
+source;share/visualizer/local_setup.zsh

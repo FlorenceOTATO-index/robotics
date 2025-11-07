@@ -1,0 +1,22 @@
+[0.938s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/src/simple_control': PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/build/simple_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_control build --build-base /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build install --record /root/csci_420_robotics_labs/lab6_ws/build/simple_control/install.log --single-version-externally-managed install_data
+[1.105s] running egg_info
+[1.118s] writing ../../build/simple_control/simple_control.egg-info/PKG-INFO
+[1.119s] writing dependency_links to ../../build/simple_control/simple_control.egg-info/dependency_links.txt
+[1.120s] writing entry points to ../../build/simple_control/simple_control.egg-info/entry_points.txt
+[1.120s] writing requirements to ../../build/simple_control/simple_control.egg-info/requires.txt
+[1.120s] writing top-level names to ../../build/simple_control/simple_control.egg-info/top_level.txt
+[1.152s] reading manifest file '../../build/simple_control/simple_control.egg-info/SOURCES.txt'
+[1.154s] writing manifest file '../../build/simple_control/simple_control.egg-info/SOURCES.txt'
+[1.155s] running build
+[1.155s] running build_py
+[1.160s] running install
+[1.163s] running install_lib
+[1.171s] running install_data
+[1.172s] running install_egg_info
+[1.186s] removing '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control-0.0.0-py3.12.egg-info' (and everything under it)
+[1.188s] Copying ../../build/simple_control/simple_control.egg-info to /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control-0.0.0-py3.12.egg-info
+[1.196s] running install_scripts
+[1.263s] Installing geofence_and_mission script to /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/simple_control
+[1.264s] Installing path_planner script to /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/simple_control
+[1.266s] writing list of installed files to '/root/csci_420_robotics_labs/lab6_ws/build/simple_control/install.log'
+[1.295s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/src/simple_control' returned '0': PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/build/simple_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_control build --build-base /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build install --record /root/csci_420_robotics_labs/lab6_ws/build/simple_control/install.log --single-version-externally-managed install_data

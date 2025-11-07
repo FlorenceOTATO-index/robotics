@@ -1,0 +1,79 @@
+[0.588s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake /root/csci_420_robotics_labs/lab6_ws/src/visualizer -DCMAKE_INSTALL_PREFIX=/root/csci_420_robotics_labs/lab6_ws/install/visualizer
+[0.733s] -- The C compiler identification is GNU 13.3.0
+[0.866s] -- The CXX compiler identification is GNU 13.3.0
+[0.890s] -- Detecting C compiler ABI info
+[1.076s] -- Detecting C compiler ABI info - done
+[1.095s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.096s] -- Detecting C compile features
+[1.096s] -- Detecting C compile features - done
+[1.103s] -- Detecting CXX compiler ABI info
+[1.272s] -- Detecting CXX compiler ABI info - done
+[1.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.290s] -- Detecting CXX compile features
+[1.291s] -- Detecting CXX compile features - done
+[1.315s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[2.787s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.215s] -- Found rclcpp: 29.5.2 (/opt/ros/kilted/share/rclcpp/cmake)
+[3.416s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[3.492s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[3.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.662s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.942s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[3.972s] -- Found rmw_fastrtps_cpp: 9.3.2 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[4.227s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.244s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.516s] -- Found std_msgs: 5.5.0 (/opt/ros/kilted/share/std_msgs/cmake)
+[4.517s] -- Found geometry_msgs: 5.5.0 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[4.729s] -- Configuring done (4.1s)
+[4.827s] -- Generating done (0.1s)
+[4.881s] -- Build files have been written to: /root/csci_420_robotics_labs/lab6_ws/build/visualizer
+[4.884s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake /root/csci_420_robotics_labs/lab6_ws/src/visualizer -DCMAKE_INSTALL_PREFIX=/root/csci_420_robotics_labs/lab6_ws/install/visualizer
+[4.885s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/visualizer -- -j8 -l8
+[4.945s] Built target ament_cmake_python_copy_src
+[5.122s] running egg_info
+[5.123s] creating src.egg-info
+[5.144s] writing src.egg-info/PKG-INFO
+[5.145s] writing dependency_links to src.egg-info/dependency_links.txt
+[5.154s] writing top-level names to src.egg-info/top_level.txt
+[5.160s] writing manifest file 'src.egg-info/SOURCES.txt'
+[5.208s] reading manifest file 'src.egg-info/SOURCES.txt'
+[5.209s] writing manifest file 'src.egg-info/SOURCES.txt'
+[5.231s] Built target ament_cmake_python_build_src_egg
+[5.253s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/visualizer -- -j8 -l8
+[5.262s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/visualizer
+[5.270s] -- Install configuration: ""
+[5.271s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/pythonpath.sh
+[5.273s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/pythonpath.dsv
+[5.276s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src-0.0.1-py3.12.egg-info
+[5.277s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src-0.0.1-py3.12.egg-info/PKG-INFO
+[5.279s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src-0.0.1-py3.12.egg-info/SOURCES.txt
+[5.281s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src-0.0.1-py3.12.egg-info/top_level.txt
+[5.283s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src-0.0.1-py3.12.egg-info/dependency_links.txt
+[5.286s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src
+[5.287s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src/gui_controller.py
+[5.289s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src/__init__.py
+[5.291s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src/gui.py
+[5.324s] Listing '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src'...
+[5.324s] Compiling '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src/__init__.py'...
+[5.325s] Compiling '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src/gui.py'...
+[5.325s] Compiling '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src/gui_controller.py'...
+[5.327s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/visualizer/gui.py
+[5.329s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/visualizer/gui_controller.py
+[5.333s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/launch
+[5.352s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/launch/view.launch
+[5.360s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/ament_index/resource_index/package_run_dependencies/visualizer
+[5.365s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/ament_index/resource_index/parent_prefix_path/visualizer
+[5.368s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/ament_prefix_path.sh
+[5.370s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/ament_prefix_path.dsv
+[5.372s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/path.sh
+[5.374s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/path.dsv
+[5.376s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/local_setup.bash
+[5.379s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/local_setup.sh
+[5.382s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/local_setup.zsh
+[5.384s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/local_setup.dsv
+[5.386s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.dsv
+[5.389s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/ament_index/resource_index/packages/visualizer
+[5.392s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/cmake/visualizerConfig.cmake
+[5.395s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/cmake/visualizerConfig-version.cmake
+[5.398s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.xml
+[5.402s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/visualizer

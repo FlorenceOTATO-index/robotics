@@ -1,0 +1,71 @@
+[0.036s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake /root/csci_420_robotics_labs/lab6_ws/src/flightcontroller -DCMAKE_INSTALL_PREFIX=/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller
+[0.595s] -- The C compiler identification is GNU 13.3.0
+[0.596s] -- The CXX compiler identification is GNU 13.3.0
+[0.596s] -- Detecting C compiler ABI info
+[0.596s] -- Detecting C compiler ABI info - done
+[0.597s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.598s] -- Detecting C compile features
+[0.598s] -- Detecting C compile features - done
+[0.613s] -- Detecting CXX compiler ABI info
+[0.890s] -- Detecting CXX compiler ABI info - done
+[0.935s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.936s] -- Detecting CXX compile features
+[0.937s] -- Detecting CXX compile features - done
+[0.986s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[2.520s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.018s] -- Found rclcpp: 29.5.2 (/opt/ros/kilted/share/rclcpp/cmake)
+[3.232s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[3.313s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[3.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.722s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[3.742s] -- Found rmw_fastrtps_cpp: 9.3.2 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[4.025s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.034s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.263s] -- Found std_msgs: 5.5.0 (/opt/ros/kilted/share/std_msgs/cmake)
+[4.394s] -- Configuring done (4.3s)
+[4.435s] -- Generating done (0.0s)
+[4.455s] -- Build files have been written to: /root/csci_420_robotics_labs/lab6_ws/build/flightcontroller
+[4.511s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake /root/csci_420_robotics_labs/lab6_ws/src/flightcontroller -DCMAKE_INSTALL_PREFIX=/root/csci_420_robotics_labs/lab6_ws/install/flightcontroller
+[4.537s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightcontroller -- -j8 -l8
+[4.554s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightcontroller -- -j8 -l8
+[4.586s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightcontroller
+[4.595s] -- Install configuration: ""
+[4.596s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/launch
+[4.599s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/launch/angle.launch
+[4.603s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/launch/position.launch
+[4.607s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/launch/fly.launch
+[4.610s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/launch/velocity.launch
+[4.613s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps
+[4.616s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_small0.yaml
+[4.620s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_medium0.pgm
+[4.623s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_medium2.yaml
+[4.626s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_medium1.yaml
+[4.631s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_medium0.yaml
+[4.639s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_large0.png
+[4.644s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_medium2.png
+[4.646s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_medium0.png
+[4.650s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_small0.png
+[4.657s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_medium1.png
+[4.690s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/maps/map_large0.yaml
+[4.696s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib/flightcontroller/angle_calculator.py
+[4.708s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib/flightcontroller/angle_controller.py
+[4.712s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib/flightcontroller/position_controller.py
+[4.716s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib/flightcontroller/velocity_controller.py
+[4.720s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/lib/flightcontroller/pid_class.py
+[4.725s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/ament_index/resource_index/package_run_dependencies/flightcontroller
+[4.733s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/ament_index/resource_index/parent_prefix_path/flightcontroller
+[4.737s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/environment/ament_prefix_path.sh
+[4.739s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/environment/ament_prefix_path.dsv
+[4.742s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/environment/path.sh
+[4.745s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/environment/path.dsv
+[4.748s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/local_setup.bash
+[4.752s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/local_setup.sh
+[4.755s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/local_setup.zsh
+[4.770s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/local_setup.dsv
+[4.785s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.dsv
+[4.790s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/ament_index/resource_index/packages/flightcontroller
+[4.795s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/cmake/flightcontrollerConfig.cmake
+[4.799s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/cmake/flightcontrollerConfig-version.cmake
+[4.802s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightcontroller/share/flightcontroller/package.xml
+[4.808s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightcontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightcontroller

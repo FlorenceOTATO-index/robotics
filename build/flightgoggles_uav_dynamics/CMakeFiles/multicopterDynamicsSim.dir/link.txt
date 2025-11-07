@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmulticopterDynamicsSim.a CMakeFiles/multicopterDynamicsSim.dir/libs/multicopterDynamicsSim/multicopterDynamicsSim.cpp.o
+/usr/bin/ranlib libmulticopterDynamicsSim.a

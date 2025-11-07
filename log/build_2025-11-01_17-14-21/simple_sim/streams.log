@@ -1,0 +1,37 @@
+[1.198s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/src/simple_sim': PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/build/simple_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_sim build --build-base /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build install --record /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/install.log --single-version-externally-managed install_data
+[4.494s] running egg_info
+[4.494s] creating ../../build/simple_sim/simple_sim.egg-info
+[4.495s] writing ../../build/simple_sim/simple_sim.egg-info/PKG-INFO
+[4.495s] writing dependency_links to ../../build/simple_sim/simple_sim.egg-info/dependency_links.txt
+[4.497s] writing entry points to ../../build/simple_sim/simple_sim.egg-info/entry_points.txt
+[4.497s] writing requirements to ../../build/simple_sim/simple_sim.egg-info/requires.txt
+[4.498s] writing top-level names to ../../build/simple_sim/simple_sim.egg-info/top_level.txt
+[4.499s] writing manifest file '../../build/simple_sim/simple_sim.egg-info/SOURCES.txt'
+[4.500s] reading manifest file '../../build/simple_sim/simple_sim.egg-info/SOURCES.txt'
+[4.501s] writing manifest file '../../build/simple_sim/simple_sim.egg-info/SOURCES.txt'
+[4.502s] running build
+[4.502s] running build_py
+[4.503s] creating /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build
+[4.504s] creating /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build/lib
+[4.504s] creating /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build/lib/simple_sim
+[4.505s] copying simple_sim/__init__.py -> /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build/lib/simple_sim
+[4.505s] copying simple_sim/simple_sim_node.py -> /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build/lib/simple_sim
+[4.506s] running install
+[4.506s] running install_lib
+[4.507s] creating /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages/simple_sim
+[4.507s] copying /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build/lib/simple_sim/__init__.py -> /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages/simple_sim
+[4.508s] copying /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build/lib/simple_sim/simple_sim_node.py -> /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages/simple_sim
+[4.508s] byte-compiling /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages/simple_sim/__init__.py to __init__.cpython-312.pyc
+[4.509s] byte-compiling /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages/simple_sim/simple_sim_node.py to simple_sim_node.cpython-312.pyc
+[4.509s] running install_data
+[4.509s] creating /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/ament_index
+[4.510s] creating /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/ament_index/resource_index
+[4.510s] creating /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/ament_index/resource_index/packages
+[4.511s] copying resource/simple_sim -> /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/ament_index/resource_index/packages
+[4.511s] copying package.xml -> /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/share/simple_sim
+[4.511s] running install_egg_info
+[4.512s] Copying ../../build/simple_sim/simple_sim.egg-info to /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages/simple_sim-0.0.0-py3.12.egg-info
+[4.512s] running install_scripts
+[4.517s] Installing simple_sim_node script to /root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/simple_sim
+[4.517s] writing list of installed files to '/root/csci_420_robotics_labs/lab6_ws/build/simple_sim/install.log'
+[4.519s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/src/simple_sim' returned '0': PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/build/simple_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_sim build --build-base /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/build install --record /root/csci_420_robotics_labs/lab6_ws/build/simple_sim/install.log --single-version-externally-managed install_data

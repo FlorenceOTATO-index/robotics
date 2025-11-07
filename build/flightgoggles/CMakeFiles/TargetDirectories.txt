@@ -1,0 +1,9 @@
+/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles/CMakeFiles/uninstall.dir
+/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles/CMakeFiles/flightgoggles_uninstall.dir
+/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles/CMakeFiles/test.dir
+/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles/CMakeFiles/edit_cache.dir
+/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles/CMakeFiles/rebuild_cache.dir
+/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles/CMakeFiles/list_install_components.dir
+/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles/CMakeFiles/install.dir
+/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles/CMakeFiles/install/local.dir
+/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles/CMakeFiles/install/strip.dir

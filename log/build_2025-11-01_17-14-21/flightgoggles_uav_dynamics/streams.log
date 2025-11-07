@@ -1,0 +1,63 @@
+[0.040s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake /root/csci_420_robotics_labs/lab6_ws/src/flightgoggles/flightgoggles_uav_dynamics -DCMAKE_INSTALL_PREFIX=/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics
+[0.594s] -- The C compiler identification is GNU 13.3.0
+[0.595s] -- The CXX compiler identification is GNU 13.3.0
+[0.595s] -- Detecting C compiler ABI info
+[0.605s] -- Detecting C compiler ABI info - done
+[0.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.616s] -- Detecting C compile features
+[0.617s] -- Detecting C compile features - done
+[0.633s] -- Detecting CXX compiler ABI info
+[0.949s] -- Detecting CXX compiler ABI info - done
+[0.999s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.999s] -- Detecting CXX compile features
+[1.000s] -- Detecting CXX compile features - done
+[1.027s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[3.039s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.402s] -- Found rclcpp: 29.5.2 (/opt/ros/kilted/share/rclcpp/cmake)
+[3.591s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[3.660s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[3.733s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.821s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.096s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[4.115s] -- Found rmw_fastrtps_cpp: 9.3.2 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[4.433s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.529s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.734s] -- Found std_msgs: 5.5.0 (/opt/ros/kilted/share/std_msgs/cmake)
+[4.783s] -- Found sensor_msgs: 5.5.0 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[4.866s] -- Found tf2: 0.41.2 (/opt/ros/kilted/share/tf2/cmake)
+[4.896s] -- Found tf2_ros: 0.41.2 (/opt/ros/kilted/share/tf2_ros/cmake)
+[5.385s] -- Configuring done (5.3s)
+[5.472s] -- Generating done (0.1s)
+[5.504s] -- Build files have been written to: /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics
+[5.507s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake /root/csci_420_robotics_labs/lab6_ws/src/flightgoggles/flightgoggles_uav_dynamics -DCMAKE_INSTALL_PREFIX=/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics
+[5.508s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics -- -j8 -l8
+[5.586s] [ 16%] [32mBuilding CXX object CMakeFiles/inertialMeasurementSim.dir/libs/multicopterDynamicsSim/inertialMeasurementSim.cpp.o[0m
+[6.661s] [ 33%] [32m[1mLinking CXX static library libinertialMeasurementSim.a[0m
+[6.712s] [ 33%] Built target inertialMeasurementSim
+[6.738s] [ 50%] [32mBuilding CXX object CMakeFiles/multicopterDynamicsSim.dir/libs/multicopterDynamicsSim/multicopterDynamicsSim.cpp.o[0m
+[8.685s] [ 66%] [32m[1mLinking CXX static library libmulticopterDynamicsSim.a[0m
+[8.882s] [ 66%] Built target multicopterDynamicsSim
+[8.935s] [ 83%] [32mBuilding CXX object CMakeFiles/flightgoggles_uav_dynamics_node.dir/src/flightgoggles_uav_dynamics_node.cpp.o[0m
+[16.437s] [100%] [32m[1mLinking CXX executable node[0m
+[17.007s] [100%] Built target flightgoggles_uav_dynamics_node
+[17.016s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics -- -j8 -l8
+[17.018s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics
+[17.025s] -- Install configuration: ""
+[17.027s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/lib/flightgoggles_uav_dynamics/node
+[17.095s] -- Set non-toolchain portion of runtime path of "/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/lib/flightgoggles_uav_dynamics/node" to ""
+[17.096s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/ament_index/resource_index/package_run_dependencies/flightgoggles_uav_dynamics
+[17.099s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/ament_index/resource_index/parent_prefix_path/flightgoggles_uav_dynamics
+[17.101s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/environment/ament_prefix_path.sh
+[17.103s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/environment/ament_prefix_path.dsv
+[17.104s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/environment/path.sh
+[17.106s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/environment/path.dsv
+[17.107s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/local_setup.bash
+[17.109s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/local_setup.sh
+[17.110s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/local_setup.zsh
+[17.111s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/local_setup.dsv
+[17.112s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.dsv
+[17.113s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/ament_index/resource_index/packages/flightgoggles_uav_dynamics
+[17.115s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/cmake/flightgoggles_uav_dynamicsConfig.cmake
+[17.116s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/cmake/flightgoggles_uav_dynamicsConfig-version.cmake
+[17.117s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.xml
+[17.119s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics

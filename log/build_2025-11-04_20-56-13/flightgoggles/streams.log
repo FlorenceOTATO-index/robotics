@@ -1,0 +1,22 @@
+[0.042s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles -- -j8 -l8
+[0.466s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles -- -j8 -l8
+[0.469s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles
+[0.491s] -- Install configuration: ""
+[0.491s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/launch
+[0.495s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/launch/core.launch
+[0.498s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/ament_index/resource_index/package_run_dependencies/flightgoggles
+[0.499s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/ament_index/resource_index/parent_prefix_path/flightgoggles
+[0.503s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/environment/ament_prefix_path.sh
+[0.506s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/environment/ament_prefix_path.dsv
+[0.510s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/environment/path.sh
+[0.511s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/environment/path.dsv
+[0.515s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/local_setup.bash
+[0.517s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/local_setup.sh
+[0.518s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/local_setup.zsh
+[0.520s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/local_setup.dsv
+[0.520s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.dsv
+[0.529s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/ament_index/resource_index/packages/flightgoggles
+[0.531s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/cmake/flightgogglesConfig.cmake
+[0.536s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/cmake/flightgogglesConfig-version.cmake
+[0.540s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles/share/flightgoggles/package.xml
+[0.625s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles

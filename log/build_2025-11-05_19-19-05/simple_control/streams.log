@@ -1,0 +1,35 @@
+[1.080s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/src/simple_control': PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/build/simple_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_control build --build-base /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build install --record /root/csci_420_robotics_labs/lab6_ws/build/simple_control/install.log --single-version-externally-managed install_data
+[1.229s] running egg_info
+[1.239s] writing ../../build/simple_control/simple_control.egg-info/PKG-INFO
+[1.239s] writing dependency_links to ../../build/simple_control/simple_control.egg-info/dependency_links.txt
+[1.240s] writing entry points to ../../build/simple_control/simple_control.egg-info/entry_points.txt
+[1.241s] writing requirements to ../../build/simple_control/simple_control.egg-info/requires.txt
+[1.241s] writing top-level names to ../../build/simple_control/simple_control.egg-info/top_level.txt
+[1.272s] reading manifest file '../../build/simple_control/simple_control.egg-info/SOURCES.txt'
+[1.273s] writing manifest file '../../build/simple_control/simple_control.egg-info/SOURCES.txt'
+[1.273s] running build
+[1.274s] running build_py
+[1.275s] copying simple_control/test_astar.py -> /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build/lib/simple_control
+[1.275s] copying simple_control/keyboard_manager.py -> /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build/lib/simple_control
+[1.279s] copying simple_control/path_planner.py -> /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build/lib/simple_control
+[1.280s] copying simple_control/astar_class.py -> /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build/lib/simple_control
+[1.284s] running install
+[1.285s] running install_lib
+[1.295s] copying /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build/lib/simple_control/test_astar.py -> /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control
+[1.296s] copying /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build/lib/simple_control/keyboard_manager.py -> /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control
+[1.297s] copying /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build/lib/simple_control/path_planner.py -> /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control
+[1.297s] copying /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build/lib/simple_control/astar_class.py -> /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control
+[1.299s] byte-compiling /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control/test_astar.py to test_astar.cpython-312.pyc
+[1.300s] byte-compiling /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control/keyboard_manager.py to keyboard_manager.cpython-312.pyc
+[1.308s] byte-compiling /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control/path_planner.py to path_planner.cpython-312.pyc
+[1.309s] byte-compiling /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control/astar_class.py to astar_class.cpython-312.pyc
+[1.310s] running install_data
+[1.313s] copying simple_control/astar_class.py -> /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/simple_control
+[1.314s] running install_egg_info
+[1.324s] removing '/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control-0.0.0-py3.12.egg-info' (and everything under it)
+[1.325s] Copying ../../build/simple_control/simple_control.egg-info to /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages/simple_control-0.0.0-py3.12.egg-info
+[1.333s] running install_scripts
+[1.418s] Installing geofence_and_mission script to /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/simple_control
+[1.419s] Installing path_planner script to /root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/simple_control
+[1.424s] writing list of installed files to '/root/csci_420_robotics_labs/lab6_ws/build/simple_control/install.log'
+[1.455s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/src/simple_control' returned '0': PYTHONPATH=/root/csci_420_robotics_labs/lab6_ws/build/simple_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/csci_420_robotics_labs/lab6_ws/install/simple_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_control build --build-base /root/csci_420_robotics_labs/lab6_ws/build/simple_control/build install --record /root/csci_420_robotics_labs/lab6_ws/build/simple_control/install.log --single-version-externally-managed install_data

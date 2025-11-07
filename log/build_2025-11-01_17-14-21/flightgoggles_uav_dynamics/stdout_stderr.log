@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 29.5.2 (/opt/ros/kilted/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.3.2 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.5.0 (/opt/ros/kilted/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.5.0 (/opt/ros/kilted/share/sensor_msgs/cmake)
+-- Found tf2: 0.41.2 (/opt/ros/kilted/share/tf2/cmake)
+-- Found tf2_ros: 0.41.2 (/opt/ros/kilted/share/tf2_ros/cmake)
+-- Configuring done (5.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics
+[ 16%] [32mBuilding CXX object CMakeFiles/inertialMeasurementSim.dir/libs/multicopterDynamicsSim/inertialMeasurementSim.cpp.o[0m
+[ 33%] [32m[1mLinking CXX static library libinertialMeasurementSim.a[0m
+[ 33%] Built target inertialMeasurementSim
+[ 50%] [32mBuilding CXX object CMakeFiles/multicopterDynamicsSim.dir/libs/multicopterDynamicsSim/multicopterDynamicsSim.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library libmulticopterDynamicsSim.a[0m
+[ 66%] Built target multicopterDynamicsSim
+[ 83%] [32mBuilding CXX object CMakeFiles/flightgoggles_uav_dynamics_node.dir/src/flightgoggles_uav_dynamics_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable node[0m
+[100%] Built target flightgoggles_uav_dynamics_node
+-- Install configuration: ""
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/lib/flightgoggles_uav_dynamics/node
+-- Set non-toolchain portion of runtime path of "/root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/lib/flightgoggles_uav_dynamics/node" to ""
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/ament_index/resource_index/package_run_dependencies/flightgoggles_uav_dynamics
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/ament_index/resource_index/parent_prefix_path/flightgoggles_uav_dynamics
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/environment/ament_prefix_path.sh
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/environment/ament_prefix_path.dsv
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/environment/path.sh
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/environment/path.dsv
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/local_setup.bash
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/local_setup.sh
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/local_setup.zsh
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/local_setup.dsv
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.dsv
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/ament_index/resource_index/packages/flightgoggles_uav_dynamics
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/cmake/flightgoggles_uav_dynamicsConfig.cmake
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/cmake/flightgoggles_uav_dynamicsConfig-version.cmake
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/flightgoggles_uav_dynamics/share/flightgoggles_uav_dynamics/package.xml

@@ -1,0 +1,10 @@
+/root/csci_420_robotics_labs/lab6_ws/build/keyboard/CMakeFiles/uninstall.dir
+/root/csci_420_robotics_labs/lab6_ws/build/keyboard/CMakeFiles/keyboard_uninstall.dir
+/root/csci_420_robotics_labs/lab6_ws/build/keyboard/CMakeFiles/keyboard.dir
+/root/csci_420_robotics_labs/lab6_ws/build/keyboard/CMakeFiles/test.dir
+/root/csci_420_robotics_labs/lab6_ws/build/keyboard/CMakeFiles/edit_cache.dir
+/root/csci_420_robotics_labs/lab6_ws/build/keyboard/CMakeFiles/rebuild_cache.dir
+/root/csci_420_robotics_labs/lab6_ws/build/keyboard/CMakeFiles/list_install_components.dir
+/root/csci_420_robotics_labs/lab6_ws/build/keyboard/CMakeFiles/install.dir
+/root/csci_420_robotics_labs/lab6_ws/build/keyboard/CMakeFiles/install/local.dir
+/root/csci_420_robotics_labs/lab6_ws/build/keyboard/CMakeFiles/install/strip.dir

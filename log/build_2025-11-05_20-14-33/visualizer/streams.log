@@ -1,0 +1,44 @@
+[0.427s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/visualizer -- -j8 -l8
+[0.591s] Built target ament_cmake_python_copy_src
+[0.691s] running egg_info
+[0.703s] writing src.egg-info/PKG-INFO
+[0.703s] writing dependency_links to src.egg-info/dependency_links.txt
+[0.704s] writing top-level names to src.egg-info/top_level.txt
+[0.740s] reading manifest file 'src.egg-info/SOURCES.txt'
+[0.743s] writing manifest file 'src.egg-info/SOURCES.txt'
+[0.761s] Built target ament_cmake_python_build_src_egg
+[0.829s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/visualizer -- -j8 -l8
+[0.831s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/visualizer
+[0.842s] -- Install configuration: ""
+[0.842s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/pythonpath.sh
+[0.843s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/pythonpath.dsv
+[0.843s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src-0.0.1-py3.12.egg-info
+[0.843s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src-0.0.1-py3.12.egg-info/PKG-INFO
+[0.845s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src-0.0.1-py3.12.egg-info/SOURCES.txt
+[0.849s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src-0.0.1-py3.12.egg-info/top_level.txt
+[0.854s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src-0.0.1-py3.12.egg-info/dependency_links.txt
+[0.857s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src
+[0.858s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src/gui_controller.py
+[0.859s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src/__init__.py
+[0.859s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src/gui.py
+[0.891s] Listing '/root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/python3.12/site-packages/src'...
+[0.893s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/visualizer/gui.py
+[0.894s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/lib/visualizer/gui_controller.py
+[0.895s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/launch
+[0.896s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/launch/view.launch
+[0.896s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/ament_index/resource_index/package_run_dependencies/visualizer
+[0.897s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/ament_index/resource_index/parent_prefix_path/visualizer
+[0.897s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/ament_prefix_path.sh
+[0.898s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/ament_prefix_path.dsv
+[0.898s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/path.sh
+[0.899s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/environment/path.dsv
+[0.899s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/local_setup.bash
+[0.900s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/local_setup.sh
+[0.900s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/local_setup.zsh
+[0.900s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/local_setup.dsv
+[0.901s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.dsv
+[0.903s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/ament_index/resource_index/packages/visualizer
+[0.903s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/cmake/visualizerConfig.cmake
+[0.904s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/cmake/visualizerConfig-version.cmake
+[0.904s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/visualizer/share/visualizer/package.xml
+[0.906s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/visualizer

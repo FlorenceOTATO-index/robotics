@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4633289c8434ede64d75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "flightgoggles_uav_dynamics",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "flightgoggles_uav_dynamics_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flightgoggles_uav_dynamics_node-c147bb40b0f8b4a09137.json",
+					"name" : "flightgoggles_uav_dynamics_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flightgoggles_uav_dynamics_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flightgoggles_uav_dynamics_uninstall-0d8aca38f62e4a1f9661.json",
+					"name" : "flightgoggles_uav_dynamics_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "inertialMeasurementSim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inertialMeasurementSim-5ad1638075d24569f6d3.json",
+					"name" : "inertialMeasurementSim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multicopterDynamicsSim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multicopterDynamicsSim-e628a2c120d19637a01f.json",
+					"name" : "multicopterDynamicsSim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ee1912488f665d36d250.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/csci_420_robotics_labs/lab6_ws/build/flightgoggles_uav_dynamics",
+		"source" : "/root/csci_420_robotics_labs/lab6_ws/src/flightgoggles/flightgoggles_uav_dynamics"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

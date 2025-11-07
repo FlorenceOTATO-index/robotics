@@ -1,0 +1,42 @@
+Built target ament_cmake_python_copy_src
+running egg_info
+writing src.egg-info/PKG-INFO
+writing dependency_links to src.egg-info/dependency_links.txt
+writing top-level names to src.egg-info/top_level.txt
+reading manifest file 'src.egg-info/SOURCES.txt'
+writing manifest file 'src.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_src_egg
+-- Install configuration: ""
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/pythonpath.sh
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/pythonpath.dsv
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src-0.0.0-py3.12.egg-info
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src/pressure.py
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src/__init__.py
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src/down_facing_camera.py
+Listing '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src'...
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/sensor_simulation/pressure.py
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/sensor_simulation/down_facing_camera.py
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/launch
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/launch/sensors.launch
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/sensor_simulation/data
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/sensor_simulation/data/construction.jpeg
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/ament_index/resource_index/package_run_dependencies/sensor_simulation
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/ament_index/resource_index/parent_prefix_path/sensor_simulation
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/ament_prefix_path.sh
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/path.sh
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/path.dsv
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/local_setup.bash
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/local_setup.sh
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/local_setup.zsh
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/local_setup.dsv
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.dsv
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/ament_index/resource_index/packages/sensor_simulation
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/cmake/sensor_simulationConfig.cmake
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/cmake/sensor_simulationConfig-version.cmake
+-- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.xml

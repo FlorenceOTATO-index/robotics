@@ -1,0 +1,46 @@
+[0.046s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation -- -j8 -l8
+[0.437s] Built target ament_cmake_python_copy_src
+[0.437s] running egg_info
+[0.441s] writing src.egg-info/PKG-INFO
+[0.442s] writing dependency_links to src.egg-info/dependency_links.txt
+[0.443s] writing top-level names to src.egg-info/top_level.txt
+[0.459s] reading manifest file 'src.egg-info/SOURCES.txt'
+[0.471s] writing manifest file 'src.egg-info/SOURCES.txt'
+[0.547s] Built target ament_cmake_python_build_src_egg
+[0.639s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation -- -j8 -l8
+[0.643s] Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation
+[0.656s] -- Install configuration: ""
+[0.657s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/pythonpath.sh
+[0.657s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/pythonpath.dsv
+[0.658s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src-0.0.0-py3.12.egg-info
+[0.658s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src-0.0.0-py3.12.egg-info/PKG-INFO
+[0.662s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.667s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src-0.0.0-py3.12.egg-info/top_level.txt
+[0.671s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.676s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src
+[0.677s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src/pressure.py
+[0.679s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src/__init__.py
+[0.680s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src/down_facing_camera.py
+[0.712s] Listing '/root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/python3.12/site-packages/src'...
+[0.714s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/sensor_simulation/pressure.py
+[0.714s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/sensor_simulation/down_facing_camera.py
+[0.714s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/launch
+[0.716s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/launch/sensors.launch
+[0.716s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/sensor_simulation/data
+[0.717s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/lib/sensor_simulation/data/construction.jpeg
+[0.718s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/ament_index/resource_index/package_run_dependencies/sensor_simulation
+[0.719s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/ament_index/resource_index/parent_prefix_path/sensor_simulation
+[0.720s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/ament_prefix_path.sh
+[0.721s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/ament_prefix_path.dsv
+[0.724s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/path.sh
+[0.724s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/environment/path.dsv
+[0.726s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/local_setup.bash
+[0.727s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/local_setup.sh
+[0.729s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/local_setup.zsh
+[0.729s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/local_setup.dsv
+[0.730s] -- Installing: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.dsv
+[0.731s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/ament_index/resource_index/packages/sensor_simulation
+[0.735s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/cmake/sensor_simulationConfig.cmake
+[0.735s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/cmake/sensor_simulationConfig-version.cmake
+[0.736s] -- Up-to-date: /root/csci_420_robotics_labs/lab6_ws/install/sensor_simulation/share/sensor_simulation/package.xml
+[0.738s] Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/sensor_simulation
