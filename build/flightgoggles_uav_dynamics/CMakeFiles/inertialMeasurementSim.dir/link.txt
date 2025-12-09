@@ -1,2 +1,0 @@
-/usr/bin/ar qc libinertialMeasurementSim.a CMakeFiles/inertialMeasurementSim.dir/libs/multicopterDynamicsSim/inertialMeasurementSim.cpp.o
-/usr/bin/ranlib libinertialMeasurementSim.a

@@ -1,4 +1,0 @@
-source;share/flightgoggles_uav_dynamics/local_setup.bash
-source;share/flightgoggles_uav_dynamics/local_setup.dsv
-source;share/flightgoggles_uav_dynamics/local_setup.sh
-source;share/flightgoggles_uav_dynamics/local_setup.zsh
