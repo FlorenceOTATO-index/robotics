@@ -1,4 +1,0 @@
-Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/visualizer -- -j8 -l8
-Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/visualizer -- -j8 -l8
-Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/visualizer
-Invoked command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /root/csci_420_robotics_labs/lab6_ws/build/visualizer

@@ -1,8 +1,0 @@
-Built target ament_cmake_python_copy_src
-running egg_info
-writing src.egg-info/PKG-INFO
-writing dependency_links to src.egg-info/dependency_links.txt
-writing top-level names to src.egg-info/top_level.txt
-reading manifest file 'src.egg-info/SOURCES.txt'
-writing manifest file 'src.egg-info/SOURCES.txt'
-Built target ament_cmake_python_build_src_egg

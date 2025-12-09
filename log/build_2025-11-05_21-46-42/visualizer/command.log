@@ -1,1 +1,0 @@
-Invoking command in '/root/csci_420_robotics_labs/lab6_ws/build/visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/csci_420_robotics_labs/lab6_ws/install/simple_sim:/root/csci_420_robotics_labs/lab6_ws/install/simple_control:/opt/ros/kilted /usr/bin/cmake --build /root/csci_420_robotics_labs/lab6_ws/build/visualizer -- -j8 -l8
