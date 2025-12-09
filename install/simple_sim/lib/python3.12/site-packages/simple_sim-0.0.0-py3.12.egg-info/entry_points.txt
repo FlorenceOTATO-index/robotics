@@ -1,2 +1,0 @@
-[console_scripts]
-simple_sim_node = simple_sim.simple_sim_node:main

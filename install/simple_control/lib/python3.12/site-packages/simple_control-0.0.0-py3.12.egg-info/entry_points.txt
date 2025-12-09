@@ -1,3 +1,0 @@
-[console_scripts]
-geofence_and_mission = simple_control.geofence_and_mission:main
-path_planner = simple_control.path_planner:main
